@@ -1,0 +1,21 @@
+.basic-layout{
+    display: grid;
+    grid-template: auto 1fr auto/ auto 1fr auto;
+}
+.head{
+    padding: 2rem;
+    grid-column: 1/4;
+    color:blueviolet;
+}
+.nav{
+    grid-column: 2;
+}
+.main{
+    grid-column:2/3;
+}
+.right{
+    grid-column: 3/4;
+}
+.footer{
+    grid-column: 1/4;
+}
