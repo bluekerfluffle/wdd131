@@ -19,6 +19,10 @@ nav a{
     
     font-family: "Oswald", sans-serif;
 }
+main{
+    max-width: auto
+    
+}
 body{
     font-family: "Cormorant Garamond", serif;
 }
