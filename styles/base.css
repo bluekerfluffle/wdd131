@@ -23,10 +23,14 @@ body{
     width: 100%;
    
 }
+nav a:hover{
+    border: 5px solid plum
+}
 .webdevcard{
     grid-column: 3/5;
     grid-row: 3/5;
     width:100%;
+
     
 }
 footer{
