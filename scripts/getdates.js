@@ -1,4 +1,9 @@
-year.innerHTML = `getFullYear(): <span class="highlight">${today.getFullYear()}</span>`;
+// Copyright year (current year)
+const currentYear = new Date().getFullYear();
 
-alert(document.lastModified);
+// Last modified date
+const lastModified = document.lastModified;
 
+// Output the results
+document.getElementById("copyright").innerHTML = `© ${currentYear} Your Company Name`;
+document.getElementById("lastModified").innerHTML = `Last modified: ${lastModified}`;
