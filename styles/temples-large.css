@@ -1,0 +1,14 @@
+/*https://coolors.co/ff1053-545643-fefffe-648de5-565857*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif&display=swap');
+
+nav{
+    display:flex;
+    
+}
+nav a{
+    flex: 1 1 100%;
+}
+nav a:hover {
+	text-decoration: underline double;
+}
