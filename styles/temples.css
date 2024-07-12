@@ -8,7 +8,6 @@ home-grid{
 }
 nav{
     display:flex;
-    
 }
 nav a{
     flex: 1 1 100%;
