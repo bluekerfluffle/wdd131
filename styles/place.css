@@ -1,0 +1,30 @@
+/* blue=0073cf, green=1d5c42, yellow=b3995d, white=FFFFFF*/
+.home-grid{
+    display: grid;
+            grid-template-rows: auto auto 1fr auto auto;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+}
+
+h1{
+    text-align: center;
+    background-color:#0073cf;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+picture{
+    max-width: 1500px;;
+}
+
+.footer {
+    background-color: #0073cf;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}

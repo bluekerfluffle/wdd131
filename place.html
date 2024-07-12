@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Oklahoma" content="Data and weather for Oklahoma">
+    <meta name="Author" content="Gracie Burris">
+    <title>Oklahoma</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body id=".home-grid">
+    <header>
+        <h1> Oklahoma</h1>
+    </header>
+    <main >
+        <div id="hero">
+            <picture>
+                <source media="(min-width: 1000px )" srcset="images/hero-large.webp">
+                <source media="(min-width: 500px )" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="" width="500" height="250">
+            </picture>
+        </div>
+        <div id="datatable">
+            <div class="row">
+                <div class="col">1-1</div>
+                <div class="col">1-2</div>
+            </div>
+            <div class="row">
+                <div class="col">2-1</div>
+                <div class="col">2-2</div>
+            </div>
+            <div class="row">
+                <div class="col">3-1</div>
+                <div class="col">3-2</div>
+            </div>
+            <div class="row">
+                <div class="col">4-1</div>
+                <div class="col">4-2</div>
+            </div>
+            <div class="row">
+                <div class="col">5-1</div>
+                <div class="col">5-2</div>
+            </div>
+            <div class="row">
+                <div class="col">6-1</div>
+                <div class="col">6-2</div>
+            </div>
+        </div>
+        <div class="weathertable">
+            <div class="weather">
+                <image class="icon" src="images/icon.svg" alt="sun and clouds images"></image>
+            </div>
+            <div class="row">
+                <div class="col">1-1</div>
+                <div class="col">1-2</div>
+            </div>
+            <div class="row">
+                <div class="col">2-1</div>
+                <div class="col">2-2</div>
+            </div>
+            <div class="row">
+                <div class="col">3-1</div>
+                <div class="col">3-2</div>
+            </div>
+            <div class="row">
+                <div class="col">4-1</div>
+                <div class="col">4-2</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            ©<span id="copyright-year"></span> Gracie Burris | Oklahoma
+        </p>
+        <p id="last-modified">
+        </p>
+    </footer>
+</body>
+</html>
