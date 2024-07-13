@@ -31,6 +31,8 @@ main{
 }
 :root {
 	--bord: 1px solid #777;
+    --blue:#0073cf;
+    --green:#1d5c42;
 }
 * {
 	box-sizing: border-box;
@@ -40,7 +42,7 @@ main{
 }
 
 .footer {
-    background-color: #0073cf;
+    background-color: var(--blue);
     text-align: center;
     font-family: "IBM Plex Serif", "Abril Fatface";
 }
