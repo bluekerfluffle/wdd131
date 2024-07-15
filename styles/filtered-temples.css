@@ -1,0 +1,33 @@
+/*https://coolors.co/ff1053-545643-fefffe-648de5-565857*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif&display=swap');
+
+home-grid{
+    display: grid;
+    grid-template: auto 1fr auto/ auto 1fr auto;
+}
+nav{
+    display:flex;
+}
+nav a{
+    flex: 1 1 100%;
+    
+}
+nav a:hover {
+	text-decoration: underline double;
+    background-color: #FEFFFE;
+}
+
+header,footer{
+    text-align: center;
+    background-color:#648DE5;
+    font-family: "Arbil Fatface", "IBM Plex Serif";
+    color:#FEFFFE;
+}
+main{
+
+    text-align: center;
+    color: #648DE5;
+    background-color: #FEFFFE;
+    font-family: "IBM Plex Serif", "Abril Fatface";
+}
