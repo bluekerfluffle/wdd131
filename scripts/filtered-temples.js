@@ -104,12 +104,12 @@ const temples = [
         "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/london-england/400x250/london-england-temple-lds-393730-wallpaper.jpg"
     },
 ]
-createTempleCard();
+createTempleCard(temples);
 
 const hambutton = document.querySelector('#hambutton');
 
 hambutton.addEventListener('click',() ->{
-    
+
 })
 function createTempleCard(filteredTemples) {
     filteredTemples.forEach(temple -> {
