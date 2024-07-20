@@ -103,16 +103,20 @@ const temples = [
         imageUrl:
         "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/london-england/400x250/london-england-temple-lds-393730-wallpaper.jpg"
     },
-]
-createTempleCard(temples);
+];
+
 
 const hambutton = document.querySelector('#hambutton');
 
-hambutton.addEventListener('click',() ->{
+hambutton.addEventListener('click',() =>{
 
 })
+
 function createTempleCard(filteredTemples) {
-    filteredTemples.forEach(temple -> {
+  const templeGrid = document.querySelector(".temple-grid");
+  templeGrid.innerHTML= "";
+
+    filteredTemples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");
         let location = document.createElement("p");
@@ -134,6 +138,8 @@ function createTempleCard(filteredTemples) {
         card.appendChild(img);
 
         document.querySelector(".home-grid").appendChild(card);
-        )}
-    
+});
+}
+createTempleCard(temples);
+
     
