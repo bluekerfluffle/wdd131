@@ -89,7 +89,7 @@ fieldset{
 button[type="submit"]{
     padding:.5rem .5rem;
     background-color: #830A48;
-    color:830A48;
+    color:#FBFEF9;
     font-weight: bold;
     border-color: white;
 }
