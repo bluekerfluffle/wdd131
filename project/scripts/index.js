@@ -112,7 +112,7 @@ function MakeActivityCard(activityList) {
             <img src=${activity.activityImg} alt="${activity.activityName}" loading=lazy width=220 height=250>
         </figure>
         <h3>${activity.activityName}<h3>
-        <a href="${activity.Steps}" target="_blank"><button class="cooking-steps">Full Recipe</button><a/>
+        <a href="${activity.Steps}" target="_blank"><button class="instructions">Activity Instructions</button><a/>
     </div>`
     })
 } 

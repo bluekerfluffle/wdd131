@@ -66,7 +66,7 @@ function DisplayRandomActivity(activityList) {
     for (var i = 0; i < 4; i++) {
         let randomActivity = activityList[Math.floor(Math.random() * activityList.length)]
         let box = document.querySelector(".activity-box")
-        box.innerHTML +=`<div class="random-card">
+        box.innerHTML +=`<div class="activity-card">
             <figure>
                 <img src=${randomActivity.activityImg} alt="${randomActivity.activityName}" loading=lazy width = 150 height=180>
             </figure>
@@ -86,7 +86,7 @@ function MakeActivityCard(activityList) {
             <img src=${activity.activityImg} alt="${activity.activityName}" loading=lazy width=220 height=250>
         </figure>
         <h3>${activity.activityName}<h3>
-        <a href="${activity.Steps}" target="_blank"><button class="cooking-steps">Full Recipe</button><a/>
+        <a href="${activity.Steps}" target="_blank"><button class="instructions">Activity Instructions</button><a/>
     </div>`
     })
 } 
