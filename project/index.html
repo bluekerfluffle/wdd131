@@ -5,39 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Providing activites for toddlers">
     <meta name="author" content="Gracie Amelia Adeline Burris">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/AFL.js" defer></script>
+    <link rel="stylesheet" href="styles/AFL.css">
+    <script src="scripts/index.js" defer></script>
     <title>Activities For Littles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Sarabun&family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="index.html" id="logo_link">
-            <img class="logo" src="images/logo.png" alt="logo icon">
-        </a>
-        <h1>Activities For Littles</h1>
+        <div class="logo-top">
+            <figure href="index.html">
+                <img src="images/logo.png" loading="lazy" alt="logo icon" width="250" height="200">
+            </figure>
+        </div>
+        <button id="menu" title="Menu Button"></button>
         <nav>
             <a href="index.html">Home</a>
             <a href="At-Home-Activities.html">At Home Activities</a>
             <a href="Outdoor-Adventures.html">Outdoor Adventures</a>
         </nav>   
     </header>
-    <main id="home-grid">
-        <section class="text"> 
-            <p>Welcome to Activities for Littles, your go-to resource for endless fun and engaging activities for toddlers! We are dedicated to helping parents, caregivers, and educators create memorable experiences that stimulate young minds and foster creativity, learning, and exploration.
+    <main id="index-main">
+        <h2 id="featured-header">Fun Activities We Enjoy!</h2>
+        <div class="activity-box">
 
-                At Activities for Littles, we offer a treasure trove of ideas and resources to keep your little ones entertained and engaged. Whether you're looking for indoor projects to do at home or exciting outdoor adventures, we have you covered.</p>
-            <h4>At Home Activities</h4>
-            <p>Dive into a world of creativity and learning with our At Home Activities. From arts and crafts to sensory play and educational games, these activities are designed to spark imagination and support developmental milestones in a fun and interactive way.</p>
-            <h4>Outdoor Adventures</h4>
-            <P>Embrace the great outdoors with our Outdoor Adventures. Discover nature-inspired activities that encourage exploration, physical activity, and a love for the environment. From nature scavenger hunts to backyard obstacle courses, these adventures will keep your little explorers active and curious.
+        </div>
+        <div id="about-me">
+            <figure id="about-me-img">
+                <img src="images/IMG_1303.JPG" alt="gracie and ben" loading="lazy" width="200" height="250">
+            </figure>
+            <h2 id="welcome-header">Welcome!</h2>
+            <p>
+                Welcome to Activities for Littles, your go-to resource for endless fun and engaging activities for toddlers! We are dedicated to helping parents, caregivers, and educators create memorable experiences that stimulate young minds and foster creativity, learning, and exploration.
 
-                Join us on this exciting journey and create lasting memories with your littles. Let's make every day an adventure filled with joy, discovery, and learning!</P>
-        </section>
+                At Activities for Littles, we offer a treasure trove of ideas and resources to keep your little ones entertained and engaged. Whether you're looking for indoor projects to do at home or exciting outdoor adventures, we have you covered. As a mom of an almost one year old boy I know how hard it can be to keep baby entertained while making sure things get done. 
+            </p>
+            <div>
+                <h3 id="visit-count">Site visited: <span id="visit-num"></span> times</h3>
+            </div>
+        </div>
     </main>
     <footer>
-        <p>
-            ©<span id="copyright-year"></span> Gracie Amelia Adeline Burris | Oklahoma
-        </p>
+        <div class="logo-bottom">
+            <figure>
+                <img src="images/logo.png" alt="logo" loading="lazy" width="250" height="190">
+            </figure>
+        </div>
+        <div class="date-bottom">
+            <p>
+
+                ©<span id="currentyear"></span> Gracie Amelia Adeline Burris | Oklahoma
+            </p>
+            <p id="lastModified">
+
+            </p>
+        </div>
     </footer>
 </body>
 </html>

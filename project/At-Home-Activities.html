@@ -3,30 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Activities for toddlers to do at home">
+    <meta name="Description" content="Providing activites for toddlers">
     <meta name="author" content="Gracie Amelia Adeline Burris">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/AFL.js" defer></script>
-    <title>At Home Activities</title>
+    <link rel="stylesheet" href="styles/AFL.css">
+    <script src="scripts/index.js" defer></script>
+    <title>Activities For Littles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Sarabun&family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="index.html" id="logo_link">
-            <img class="logo" src="images/logo.png" alt="logo icon">
-        </a>
-        <h1>At Home Activities</h1>
-        \<nav>
+        <div class="logo-top">
+            <figure href="index.html">
+                <img src="images/logo.png" loading="lazy" alt="logo icon" width="250" height="200">
+            </figure>
+        </div>
+        <button id="menu" title="Menu Button"></button>
+        <nav>
             <a href="index.html">Home</a>
             <a href="At-Home-Activities.html">At Home Activities</a>
             <a href="Outdoor-Adventures.html">Outdoor Adventures</a>
-        </nav> 
+        </nav>   
     </header>
-    <main id="home-grid">
+    <main id="index-main">
+        <h2 id="at-home-header">At Home Activities!</h2>
+        <div class="activity-box">
+        </div>
     </main>
     <footer>
-        <p>
-            ©<span id="copyright-year"></span> Gracie Amelia Adeline Burris | Oklahoma
-        </p>
+        <div class="logo-bottom">
+            <figure>
+                <img src="images/logo.png" alt="logo" loading="lazy" width="250" height="190">
+            </figure>
+        </div>
+        <div class="date-bottom">
+            <p>
+                ©<span id="currentyear"></span> Gracie Amelia Adeline Burris | Oklahoma
+            </p>
+            <p id="lastModified">
+
+            </p>
+        </div>
     </footer>
 </body>
 </html>
+
+
+
+
+
+
