@@ -36,9 +36,9 @@ header {
   margin: auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
-font-size: 1.5rem;
-text-decoration: none;
-padding: .1rem .5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: .1rem .5rem;
 }
 
 #menu::before {
@@ -96,7 +96,7 @@ p {
   color: var(--text);
   font-family: var(--textfont);
 }
-.activity-box,.outdoor {
+.activity-box{
   display: grid;
   height: 1600px;
   background-color: white;
