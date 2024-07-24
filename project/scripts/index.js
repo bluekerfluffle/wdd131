@@ -106,8 +106,8 @@ DisplayRandomActivity(activities)
 function MakeActivityCard(activityList) {
     activityList.forEach(function(activity) 
     {
-        let container = document.querySelector("#activities")
-        container.innerHTML += `<div class="activity-card">
+        let container = document.querySelector(".activity-box")
+        container.innerHTML += `<div class="random-card">
         <figure>
             <img src=${activity.activityImg} alt="${activity.activityName}" loading=lazy width=220 height=250>
         </figure>
@@ -117,3 +117,65 @@ function MakeActivityCard(activityList) {
     })
 } 
 MakeActivityCard(activities)
+
+const outdoors = [
+    {
+        activityName:"DIY Kinetic Sand",
+        activityImg:"images/sand.webp",
+        Steps:"https://eatingrichly.com/kinetic-sand-recipe/",
+    },
+    {
+        activityName:"DIY Chalk Paint",
+        activityImg:"images/chalk.png",
+        Steps:"https://livingwellmom.com/diy-sidewalk-chalk-paint-kids/",
+    },
+    {
+        activityName:"DIY Strong Bubbles",
+        activityImg:"images/bubbles.jpg",
+        Steps:"https://livingwellmom.com/homemade-bubble-solution/",
+    },
+    {
+        activityName:"DIY Water Bombs",
+        activitImg:"images/sponge.jpg",
+        Steps:"https://livingwellmom.com/splish-splashing-fun-with-sponge-bombs-tutorial/",
+    },
+    {
+        activityName:"Oobleck",
+        activitImg:"images/oob.jpg",
+        Steps:"https://livingwellmom.com/how-to-make-oobleck-science-fun-kids/",
+    },
+    {
+        activityName:"Backyard Olympics",
+        activitImg:"images/olympics.jpg",
+        Steps:"https://toddlerapproved.com/2-simple-and-silly-backyard-olympics/",
+    },
+    {
+        activityName:"Family Jogging Club",
+        activitImg:"images/jog.jpg",
+        Steps:"https://toddlerapproved.com/family-jogging-club/",
+    },
+    {
+        activityName:"Giant Foam Sensory Bin",
+        activitImg:"images/foam.jpg",
+        Steps:"https://toddlerapproved.com/giant-foam-sensory-bin-for-kids/",
+    },
+    {
+        activityName:"Nature Walk",
+        activitImg:"images/nature.jpg",
+        Steps:"https://themodernmindfulmom.com/nature-walk-ideas-for-toddlers-preschoolers/",
+    },
+];
+function MakeActivityCard(outdoorList) {
+    outdoorList.forEach(function(outdoor) 
+    {
+        let container = document.querySelector(".activity-box")
+        container.innerHTML += `<div class="random-card">
+        <figure>
+            <img src=${outdoor.activityImg} alt="${outdoor.activityName}" loading=lazy width=220 height=250>
+        </figure>
+        <h3>${outdoor.activityName}<h3>
+        <a href="${outdoor.Steps}" target="_blank"><button class="instructions">Activity Instructions</button><a/>
+    </div>`
+    })
+} 
+MakeActivityCard(outdoors)

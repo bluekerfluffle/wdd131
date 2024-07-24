@@ -59,27 +59,8 @@
         padding-bottom: 0;
         align-self: baseline;
     }
-    #activities{
-        width: 90vw;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
     #tip-main {
         width: 80vw;
     }
-    @media screen and (min-width: 600px)
-{
-    #activities {
-        justify-content: center;
-    }
-    #activity-page {
-        display: grid;
-        justify-items: center;
-        margin: 0 auto;
 
-    }
-    
-
-
-}
 }
