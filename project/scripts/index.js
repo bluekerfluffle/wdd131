@@ -107,7 +107,7 @@ function MakeActivityCard(activityList) {
     activityList.forEach(function(activity) 
     {
         let container = document.querySelector(".activity-box")
-        container.innerHTML += `<div class="random-card">
+        container.innerHTML += `<div class="activity-card">
         <figure>
             <img src=${activity.activityImg} alt="${activity.activityName}" loading=lazy width=220 height=250>
         </figure>
@@ -169,7 +169,7 @@ function MakeActivityCard(outdoorList) {
     outdoorList.forEach(function(outdoor) 
     {
         let container = document.querySelector(".activity-box")
-        container.innerHTML += `<div class="random-card">
+        container.innerHTML += `<div class="activity-card">
         <figure>
             <img src=${outdoor.activityImg} alt="${outdoor.activityName}" loading=lazy width=220 height=250>
         </figure>

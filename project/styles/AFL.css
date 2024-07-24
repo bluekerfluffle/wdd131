@@ -155,6 +155,24 @@ p {
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   border: solid 5px var(--header);
 }
+.activity-card {
+  background-color: var(--gold);
+  padding-top: 1rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  font-family: var(--headerfont);
+  color: var(--text);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 280px;
+}
+.activity-card figure img{
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.activity-card h3 {
+  margin-top: 1rem;
+}
 .steps {
   border: 2px solid var(--subheader);
   background-color: white;
